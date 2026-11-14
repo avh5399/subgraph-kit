@@ -1,5 +1,8 @@
 //! This crate provides a configuration module and error handling for missing configuration parameters.
 
+/// The ways building a configuration can fail.
+///
+/// Each variant names one required setting that was not provided.
 #[derive(Debug, thiserror::Error, PartialEq)]
 pub enum ConfigError {
     /// Error indicating that the issuer is missing in the configuration when build() is called.

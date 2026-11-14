@@ -5,6 +5,14 @@
 pub mod config;
 
 /// Returns a greeting for the given name.
+///
+/// # Examples
+///
+/// ```
+/// use subgraph_kit::greeting;
+///
+/// assert_eq!(greeting("Carol"), "Hello Carol!");
+/// ```
 pub fn greeting(name: &str) -> String {
     format!("Hello {}!", name)
 }
