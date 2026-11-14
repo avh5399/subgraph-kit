@@ -27,3 +27,8 @@ rustc-ice-*.txt
 .claude
 .agents
 skills-lock.json
+
+
+# Added by cargo
+
+/target
