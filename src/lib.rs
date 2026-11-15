@@ -2,7 +2,7 @@
 
 #![deny(missing_docs)]
 
-pub mod config;
+pub mod auth;
 
 /// Returns a greeting for the given name.
 ///
